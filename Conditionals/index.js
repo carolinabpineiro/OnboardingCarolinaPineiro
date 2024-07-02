@@ -2,7 +2,7 @@
 
 //Ejercicio 4 (Diagrama de flujo en Google Docs)
 
-/*let num1 = 4;
+let num1 = 4;
 let num2 = 5;
 
 if (num1 > num2) {
@@ -71,7 +71,7 @@ if (number1 > number2 && number1 > number3) {
   console.log(`El número ${number2} es el más grande`);
 } else {
   console.log(`El número ${number3} es el más grande`);
-}*/
+}
 
 //--------------------------------------------->Nivel de dificultad: MEDIO
 
