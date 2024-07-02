@@ -240,49 +240,51 @@ if (nume1 === 1 || nume1 === 2 || nume1 === 3) {
 //--------------------------------------------->Nivel de dificultad: ALTO
 
 let consultaNombre = prompt("Ingrese su nombre:").toLowerCase();
-if (consultaNombre == "carolina") {
+
+if (consultaNombre === "carolina") {
   alert("¡Bienvenida!, que tengas una excelente estadía");
 } else {
   let consultaPase = prompt(
-    "¿Tiene pase VIP pase normal? Por favor escriba 'vip' o 'normal'"
+    "¿Tiene pase VIP o pase normal? Por favor escriba 'si' o 'no'"
   ).toLowerCase();
-  if (consultaPase == "vip" || consultaPase == "normal") {
+
+  if (consultaPase === "si") {
     alert("¡Bienvenida!, que tengas una excelente estadía");
   } else {
     let consultaEntrada = prompt(
       "¿Tiene entrada? Por favor escriba 'si' o 'no'"
     ).toLowerCase();
-    if (consultaEntrada == "si") {
+
+    if (consultaEntrada === "si") {
       let usarEntrada = prompt(
-        'Quieres usar la entrada? Por favor escriba "si" o "no"'
+        '¿Quieres usar la entrada? Por favor escriba "si" o "no"'
       ).toLowerCase();
-      if (usarEntrada == "si") {
-        alert("¡Bienvenida!, que tengas una excelente estadía");
-      }
-    } else {
-      alert("Gracias por su visita");
-    }
-  }
-  if (
-    consultaNombre != "carolina" &&
-    consultaPase != "vip" &&
-    consultaPase != "normal" &&
-    consultaEntrada != "si"
-  ) {
-    let comprarEntrada = prompt(
-      'Quieres comprar la entrada? Por favor escriba "si" o "no"'
-    ).toLowerCase();
-    if (comprarEntrada == "si") {
-      let cuantoDinero = prompt("¿Cuánto dinero tienes?").toLowerCase();
-      if (cuantoDinero >= 100) {
+
+      if (usarEntrada === "si") {
         alert("¡Bienvenida!, que tengas una excelente estadía");
       } else {
-        alert("No puedes entrar");
+        alert(
+          "Lamentamos que no nos acompañe en esta estadía. Que tenga un buen día y lo esperamos pronto."
+        );
       }
     } else {
-      alert(
-        "Lamentamos que no nos acompane en esta estadia, que tenga un bien dia y lo esperamos pronto"
-      );
+      let comprarEntrada = prompt(
+        '¿Quieres comprar la entrada? Por favor escriba "si" o "no"'
+      ).toLowerCase();
+
+      if (comprarEntrada === "si") {
+        let cuantoDinero = parseInt(prompt("¿Cuánto dinero tienes?"));
+
+        if (cuantoDinero >= 100) {
+          alert("¡Bienvenida!, que tengas una excelente estadía");
+        } else {
+          alert("No puedes entrar, no tienes suficiente dinero.");
+        }
+      } else {
+        alert(
+          "Lamentamos que no nos acompañe en esta estadía. Que tenga un buen día y lo esperamos pronto."
+        );
+      }
     }
   }
 }
