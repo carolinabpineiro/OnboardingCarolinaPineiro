@@ -214,7 +214,7 @@ switch (edad) {
     console.log("Eres una persona mayor");
     break;
   default:
-    console.log("Eres realmente tan vijejo?");
+    console.log("Eres realmente tan viejo?");
 }
 
 //Crea un programa que te permita ingresar solo números del 1 al 3 en la pantalla y luego cualquier otro dato numérico. Imprimir en pantalla :
@@ -229,7 +229,7 @@ let numer2 = parseInt(prompt("Ingresa un segundo numero"));
 
 if (nume1 === 1 || nume1 === 2 || nume1 === 3) {
   console.log(
-    `El numero ingresado es $(nume1). El doble es $(nume1*2). Tres veces el numero ingresado es $(nume1*3)`
+    `El numero ingresado es ${nume1}. El doble es ${nume1*2}. Tres veces el numero ingresado es ${nume1*3}`
   );
 } else {
   alert("Ese valor no está permitido");
