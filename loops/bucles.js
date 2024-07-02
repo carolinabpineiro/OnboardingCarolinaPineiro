@@ -7,27 +7,27 @@
 // }
 //}
 
-/*for (let i = 10; i <= 20; i++) {
+for (let i = 10; i <= 20; i++) {
     console.log("Número actual: " + i);
-    }*/
+    }
 
 //Utilizando un bucle "for", crea un programa que permita el ingreso de un número entre 1 y 100 a través de un prompt , luego imprime a través de la consola todos los números que estén entre el número ingresado y 0 (es decir, en orden descendente).
 
-/*for (let i = (prompt("Ingresa un número del 1 al 100")); i >= 0; i--) {
+for (let i = (prompt("Ingresa un número del 1 al 100")); i >= 0; i--) {
   console.log(i);
-}*/
+}
 
 //Utilizando un bucle "for", realizar un programa que permita el ingreso de un número a través de un prompt entre 1 y 10, y muestre a través de la consola su tabla de multiplicar (solo los primeros 10 múltiplos).
 
-/*let numerpParaMultiplicar = (prompt("Ingresa un número del 1 al 10"));
+let numerpParaMultiplicar = (prompt("Ingresa un número del 1 al 10"));
 for (let i = 1; i <= 10; i++) {
   let resultado =   numerpParaMultiplicar*i;
   console.log(`${numerpParaMultiplicar} x ${i} = ${resultado}`);
-}*/
+}
 
 //Usando un bucle " while ", cree un programa que permita la entrada de números a través de un mensaje. Los números deben sumarse (acumularse) en una variable resultante. La entrada de números finalizará cuando el usuario ingrese un 0. Al final, muestre el valor de la variable suma a través de la consola
 
-/*let acumular = 0; //La variable acumuladora se inicializa en 0
+let acumular = 0; //La variable acumuladora se inicializa en 0
 
 while (true) {
   let numero = parseInt(prompt("Ingresa un número"));
@@ -36,12 +36,10 @@ while (true) {
   }
   acumular += numero; //Suma el numero al acumulador
   console.log(`La suma es:  + ${acumular}`);
-}*/
+}
 
 //Utilizando ahora un bucle "do while" y siguiendo las mismas instrucciones que el ejercicio anterior, muestra en la consola, el valor de la variable que acumula la suma de los números ingresados.
 
-/*
-let acumular = 0;
 do {
     let numero = parseInt(prompt("Ingresa un número"));
     if (numero === 0) {
@@ -49,43 +47,43 @@ do {
     }
     acumular += numero; // Suma el numero al acumulador
     console.log(`La suma es: ${acumular}`); // Muestra la suma actualizada
-  } while (true);*/
+  } while (true);
 
 //Usando un bucle "for in", crea un objeto con al menos 5 propiedades, haz un programa que recorra dicho objeto y solo muestre todas las claves de sus propiedades en la consola.
 
-/*let casa = {
+let casa = {
     tipo: 'familiar',
     habitaciones: 3,
     baños: 2,
     direccion: "Urquia 4585",
     patio: true
-}   */
+}   
 
-/*for (let key in casa) {
+for (let key in casa) {
     console.log(key); // muestra las claves del objeto casa
-}*
+}
 
 //Usando un bucle "for in", cree un programa que se ejecute a través del objeto creado en el ejercicio anterior y solo muestre los valores de cada una de las claves en la consola
 
-/*for (let key in casa) {
+for (let key in casa) {
     console.log(casa[key]); // muestra los valores del objeto casa
-}*/
+}
 
 //--------------------------------------------->Nivel de dificultad: MEDIO
 
-/*let acumular = 0; // La variable acumuladora se inicializa en 0
+let acumular2 = 0; // La variable acumuladora se inicializa en 0
 
 while (true) {
   let numero = parseInt(prompt("Ingresa un número"));
   if (numero === 0) {
     break;
   }
-  acumular += numero; // Suma el numero al acumulador
-  console.log(acumular);
+  acumular2 += numero; // Suma el numero al acumulador
+  console.log(acumular2);
 }
 
 // Una vez finalizado el bucle, almacenar el número acumulado en numeroSecreto
-let numeroSecreto = acumular;
+let numeroSecreto = acumular2;
 
 let intentos = 0;
 let numeroIngresado;
@@ -104,7 +102,7 @@ do {
     break;
   }
 
-} while (numeroIngresado !== numeroSecreto);*/
+} while (numeroIngresado !== numeroSecreto);
 
 //Usando el bucle que consideres correcto, crea un programa que reciba un número a través de un mensaje y muestre todos sus divisores (divisores)  a través de la consola.
 
