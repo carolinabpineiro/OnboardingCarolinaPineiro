@@ -40,7 +40,9 @@ while (true) {
 
 //Utilizando ahora un bucle "do while" y siguiendo las mismas instrucciones que el ejercicio anterior, muestra en la consola, el valor de la variable que acumula la suma de los números ingresados.
 
-/*do {
+/*
+let acumular = 0;
+do {
     let numero = parseInt(prompt("Ingresa un número"));
     if (numero === 0) {
       break;
@@ -131,13 +133,13 @@ for (let i = 1; i <= numeroParaDivisores; i++) {
     if (i < numero - 1) {
       resultado += ", "; // Agregar una coma y espacio entre cada "Ding Dong", excepto al final
     }
-  }
   
-  console.log(resultado);*/
+  
+  console.log(resultado);*/ 
 
 //Partiendo de las constantes dateLimit y fechas , haz un bucle (el que consideres) que muestre en la consola las fechas del array mayores o iguales a la fecha almacenada en la constante dateLimite .
 
-const dateLimit = "1997-8-3";
+/*const dateLimit = "1997-8-3";
 const fechas = ["1997-8-3", "1997-8-4", "1997-8-5", "1997-8-6", "1997-8-7"];
 
 console.log(`Fechas mayores o iguales a ${dateLimit}:`);
@@ -146,7 +148,7 @@ for (let i = 0; i < fechas.length; i++) {
   if (fechas[i] >= dateLimit) {
     console.log(fechas[i]);
   }
-}
+}*/
 
 const colores = [
   "rojo",

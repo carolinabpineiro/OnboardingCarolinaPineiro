@@ -134,10 +134,6 @@ function pedirDatosPersona() {
     pedirDatosPersona(); // Volver a solicitar los datos
     return; // Importante para evitar que se ejecute el código restante
   }
-
-  // Convertir la edad a número
-  edad = parseInt(edad);
-
   // Verificar si la edad es un número válido
   if (isNaN(edad) || edad <= 0) {
     alert("Por favor, ingrese una edad válida.");
@@ -145,7 +141,6 @@ function pedirDatosPersona() {
     return; // Importante para evitar que se ejecute el código restante
   }
 
-  // Si todos los datos son válidos, mostrar un mensaje con los datos ingresados
   alert(
     `Los datos ingresados son:\nNombre: ${nombre}\nApellido: ${apellido}\nEdad: ${edad}`
   );
