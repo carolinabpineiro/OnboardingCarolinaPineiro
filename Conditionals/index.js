@@ -200,21 +200,22 @@ if (
 
 let edad = parseInt(prompt("Ingresa tu edad"));
 
-switch (edad) {
-  case 0 >= 12:
+switch (true) {
+  case edad >= 0 && edad <= 12:
     console.log("Eres infantil");
     break;
-  case 13 >= 18:
+  case edad >= 13 && edad <= 18:
     console.log("Eres un adolescente");
     break;
-  case 19 >= 45:
-    console.log("Eres un joven mayor");
+  case edad >= 19 && edad <= 45:
+    console.log("Eres un joven adulto");
     break;
-  case 45 >= 100:
+  case edad >= 46 && edad <= 100:
     console.log("Eres una persona mayor");
     break;
   default:
-    console.log("Eres realmente tan viejo?");
+    console.log("¿Eres realmente tan viejo?");
+    break;
 }
 
 //Crea un programa que te permita ingresar solo números del 1 al 3 en la pantalla y luego cualquier otro dato numérico. Imprimir en pantalla :
