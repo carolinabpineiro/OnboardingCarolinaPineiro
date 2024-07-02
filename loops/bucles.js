@@ -106,7 +106,7 @@ do {
 
 //Usando el bucle que consideres correcto, crea un programa que reciba un número a través de un mensaje y muestre todos sus divisores (divisores)  a través de la consola.
 
-/*let numeroParaDivisores = parseInt(prompt("Ingresa un número para encontrar sus divisores:"));
+let numeroParaDivisores = parseInt(prompt("Ingresa un número para encontrar sus divisores:"));
 console.log(`Los divisores de ${numeroParaDivisores} son:`);
 
 // Bucle para encontrar y mostrar los divisores
@@ -114,11 +114,11 @@ for (let i = 1; i <= numeroParaDivisores; i++) {
   if (numeroParaDivisores % i === 0) { // indica que i es un divisor de numeroParaDivisores
     console.log(i);
   }
-}*/
+}
 
 //Teniendo en cuenta la función Bell que suena, crea un bucle (el que consideres) que muestre una cadena por consola que a su vez concatene la cadena que retorna la función tantas veces como el número que el usuario ingrese en el teclado.
 
-/*function Campana() {
+function Campana() {
     return "Ding Dong";
   }
   
@@ -131,13 +131,13 @@ for (let i = 1; i <= numeroParaDivisores; i++) {
     if (i < numero - 1) {
       resultado += ", "; // Agregar una coma y espacio entre cada "Ding Dong", excepto al final
     }
+  }
   
-  
-  console.log(resultado);*/ 
+  console.log(resultado);
 
 //Partiendo de las constantes dateLimit y fechas , haz un bucle (el que consideres) que muestre en la consola las fechas del array mayores o iguales a la fecha almacenada en la constante dateLimite .
 
-/*const dateLimit = "1997-8-3";
+const dateLimit = "1997-8-3";
 const fechas = ["1997-8-3", "1997-8-4", "1997-8-5", "1997-8-6", "1997-8-7"];
 
 console.log(`Fechas mayores o iguales a ${dateLimit}:`);
@@ -146,7 +146,7 @@ for (let i = 0; i < fechas.length; i++) {
   if (fechas[i] >= dateLimit) {
     console.log(fechas[i]);
   }
-}*/
+}
 
 const colores = [
   "rojo",
@@ -224,7 +224,7 @@ miembrosDeLaFamilia(familia);
 
 //--------------------------------------------->Nivel de dificultad: ALTO
 
-/*let numer;
+let numer;
 let sumaPares = 0;
 let sumaImpares = 0;
 
@@ -245,7 +245,7 @@ while (true) {
 }
 
 console.log(`Suma de números pares: ${sumaPares}`);
-console.log(`Suma de números impares: ${sumaImpares}`);*/
+console.log(`Suma de números impares: ${sumaImpares}`);
 
 //
 const imprimirNumeroMasGrande = [15, 27, 8, 45, 12, 39, 6, 18, 33, 20];
