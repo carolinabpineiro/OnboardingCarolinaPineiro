@@ -105,11 +105,15 @@ console.log(frutas[4]);
 
 //Utiliza un símbolo ( ) que permite ingresar una edad en pantalla y compararla con el número 18, una vez hecho esto guarda el resultado en una variable llamada IamAdult y muestra un mensaje en la consola que dice:"Soy un adulto" (y el valor de la variable).
 
-let IamAdult = 18;
-let miEdad = prompt("Cual es tu edad?");
-console.log(miEdad >= IamAdult ? "Soy un adulto" : "No soy un adulto"); //el operador ternario: SI MIEDAD ES MAYOR O IGUAL A IAMADULT, MUESTRA "SOY UN ADULTO", SINO, MUESTRA "NO SOY UN ADULTO".
 
-//Crea un arreglo llamado "números" con un mínimo de 5 elementos y muestra el arreglo completo y cada uno de los elementos por separado en la consola.
+let edad = prompt("Ingresa tu edad:");
+edad = parseInt(edad);
+
+let IamAdult = edad >= 18;
+
+console.log(`Soy un adulto con ${edad} años: ${IamAdult}`);
+
+//Crea un arreglo llamado numeros con un número de 5 elementos y muestre el arreglo completo en la consola y también muestre cada uno de los elementos por separado en la consola.
 
 let numeros = [10, 200, 3000, 40000, 500000];
 console.log(numeros);
@@ -189,3 +193,5 @@ console.log(familia[4].hobbie);
 //Crea una variable llamada "randomText" formando una frase con el segundo elemento del arreglo de frutas, el cuarto elemento del arreglo de números y la primera propiedad del quinto objeto del arreglo de familia.
 
 let randomText = frutas[1] + " " + numeros[3] + " " + familia[4].nombre;
+console.log(randomText);
+
