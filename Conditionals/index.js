@@ -170,11 +170,11 @@ if (persona1.altura > persona2.altura && persona1.edad > persona2.edad) {
 //Mide más de 110 cm.
 //Tenga una visión de al menos 8 sobre 10.
 
-/*let calificadoParaConducir = {
+let calificadoParaConducir = {
   nombreConducir: prompt("Ingresa tu nombre"),
   edadConducir: parseInt(prompt("Ingresa tu edad")),
   alturaConducir: parseInt(prompt("Ingresa tu altura en cm")),
-  visionConducir: parseInt(prompt("Ingresa tu vision del 1 al 10")),
+  visionConducir: parseInt(prompt("Ingresa tu visión del 1 al 10")),
 };
 
 if (
@@ -183,11 +183,11 @@ if (
   calificadoParaConducir.visionConducir >= 8
 ) {
   console.log(
-    `$(calificadoParaConducir.nombreConducir) estas calificado para conducir`
+    `${calificadoParaConducir.nombreConducir} estás calificado para conducir`
   );
 } else {
   console.log(
-    `$(calificadoParaConducir.nombreConducir) no estas calificado para conducir`
+    `${calificadoParaConducir.nombreConducir} no estás calificado para conducir`
   );
 }
 
@@ -284,4 +284,4 @@ if (consultaNombre == "carolina") {
       );
     }
   }
-}*/
+}
