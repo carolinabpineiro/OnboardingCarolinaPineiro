@@ -1,6 +1,6 @@
 //--------------------------------------------->Nivel de dificultad: bajo
 
-/*function add() {
+function add() {
   let resultado = 100 * 20;
   console.log(`El resultado es ${resultado}`);
 }
@@ -13,18 +13,18 @@ function add2(numero1, numero2) {
 
 console.log(add2(100, 20));
 console.log(add2(30, 50));
-console.log(add2(33, 43));*/
+console.log(add2(33, 43));
 
 //--------------------------------------------->Nivel de dificultad medio
 
 //Ejercicio 1
 
-/*let nombre = prompt("Por favor, ingresa tu nombre");
-function saludar(nombreSaludar) {
-  return `Bienvenido ${nombre}`;
+let nombreSaludar = prompt("Por favor, ingresa tu nombre");
+function saludo(nombre) {
+  return `Bienvenido ${nombreSaludar}`;
 }
 
-console.log(saludar());
+console.log(saludo());
 
 //Ejercicio 2
 
@@ -73,7 +73,7 @@ function isAnAdult(edad) {
   }
 }
 console.log(isAnAdult(20));
-console.log(isAnAdult(15));*/
+console.log(isAnAdult(15));
 
 //--------------------------------------------->NIVEL ALTO
 //Ejercicio 1
@@ -141,12 +141,10 @@ function pedirDatosPersona() {
     return; // Importante para evitar que se ejecute el código restante
   }
 
-  alert(
-    `Los datos ingresados son:\nNombre: ${nombre}\nApellido: ${apellido}\nEdad: ${edad}`
-  );
+  return(`Los datos ingresados son:\nNombre: ${nombre}\nApellido: ${apellido}\nEdad: ${edad}`);
 }
 
-pedirDatosPersona();
+console.log(pedirDatosPersona());
 
 //Ejercicio 4
 
